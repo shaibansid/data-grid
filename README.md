@@ -1,10 +1,18 @@
 # DataGrid
 
-This is Sample DataGrid App generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+This is Sample DataGrid App with some basic functionality of data rendering, filtering & sorting.
 
+## Prerequisites
 
-## Installation 
+1. Node 6.9.0 or higher
+2. NPM 3 or higher
 
+## Installation Setup
+
+1. Clone repository 
+2. `npm install -g angular-cli`
+3. `npm install`
+4. Run `npm start`
 
 
 ## Further help
