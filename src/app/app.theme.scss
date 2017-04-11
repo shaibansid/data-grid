@@ -46,4 +46,11 @@
             }
         }
     }
+    .shift-down {
+        position: relative;
+        top: 5px;
+        &:hover {
+            color: mat-color($primary, 0.4);
+        }
+    }
 }
