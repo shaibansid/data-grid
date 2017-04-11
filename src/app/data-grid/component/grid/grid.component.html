@@ -1,0 +1,19 @@
+<md-card class="pad-bottom">
+  <div class="table-grid">
+    <div class="data-filter-area" *ngIf="beFilter">
+      <md-input-container>
+        <input mdInput [placeholder]="fPlaceholder" [(ngModel)]="filterArg">
+      </md-input-container>
+    </div>
+    <div class="table-wrap table-header">
+      <div class="table-row">
+        <div class="table-item" *ngFor="let column of columns">{{column.name}}</div>
+      </div>
+    </div>
+    <div class="table-wrap table-content" *ngFor="let row of (dataArray | dataFilter: filterArg )">
+      <div class="table-row">
+        <div class="table-item" *ngFor="let column of columns">{{row[column.key]}}</div>
+      </div>
+    </div>
+  </div>
+</md-card>

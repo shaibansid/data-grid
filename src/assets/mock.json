@@ -1,0 +1,39 @@
+[
+    {
+        "name": "Javascript",
+        "loved": 70,
+        "wanted":60,
+        "popular":65
+    },
+    {
+        "name": "Rust",
+        "loved": 75,
+        "wanted":65,
+        "popular":70
+    },
+    {
+        "name": "TypeScript",
+        "loved": 75,
+        "wanted":63,
+        "popular":75
+    },
+    {
+        "name": "Swift",
+        "loved": 60,
+        "wanted":62,
+        "popular":67
+    },
+    {
+        "name": "Go",
+        "loved": 66,
+        "wanted":68,
+        "popular":62
+    },
+    {
+        "name": "Python",
+        "loved": 60,
+        "wanted":55,
+        "popular":56
+    }
+  
+]

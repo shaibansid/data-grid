@@ -1,0 +1,11 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+.logo-header-txt {
+    font-size: 1.4rem;
+}
+
+.pad-bottom {
+    padding: 0 0 25px 0;
+}

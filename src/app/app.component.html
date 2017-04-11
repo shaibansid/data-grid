@@ -1,0 +1,27 @@
+<md-toolbar color="primary" class="mat-elevation-z6">
+  <a md-button class="sidemenu-icon">
+    <md-icon color="light">menu</md-icon>
+  </a>
+
+  <a md-button aria-label="Data Grid">
+
+    <span class="logo-header-txt">Data<span>Grid</span></span>
+  </a>
+  <span class="spacer"></span>
+  <a md-button class="sidemenu-icon">
+    <md-icon class="example-icon">exit_to_app</md-icon>
+  </a>
+</md-toolbar>
+
+<div class="main-content">
+  <div class="main-wrap" *ngIf="topLanguage">
+    
+      <data-grid [dataArray]="topLanguage" [filter]="true">
+        <data-column [key]="'name'" [name]="'Language Name'"></data-column>
+        <data-column [key]="'loved'" [name]="'Most Loved %'"></data-column>
+        <data-column [key]="'wanted'" [name]="'Most Wanted %'"></data-column>
+        <data-column [key]="'popular'" [name]="'Most Popular %'"></data-column>
+      </data-grid>
+    
+  </div>
+</div>
