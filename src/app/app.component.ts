@@ -7,7 +7,7 @@ import { AppService } from './app.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  private topLanguage:Array<any> =[];
+  public topLanguage:Array<any> =[];
 
   constructor(private appService:AppService){
 

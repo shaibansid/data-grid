@@ -20,7 +20,7 @@ export class GridComponent implements OnInit {
 
   filterArg: string = '';
 
-  private columns: ColumnComponent[] = [];
+  public columns: ColumnComponent[] = [];
   constructor() { }
 
   ngOnInit() {
